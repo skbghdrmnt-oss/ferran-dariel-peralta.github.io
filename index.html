@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferran Dariel Peralta | Futbolista</title>
+  <meta name="description" content="Perfil futbolístico de Ferran Dariel Peralta, extremo izquierdo y derecho de Argentino de Rosario.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #080b10;
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 8%;
+      background: linear-gradient(90deg, #080b10 20%, #080b10cc),
+                  url("assets/ferran-en-partido.jpg") center/cover;
+    }
+    header p { color: #d7a83e; font-weight: bold; letter-spacing: 3px; }
+    h1 { font-size: clamp(42px, 9vw, 82px); line-height: 1.05; margin: 15px 0; }
+    header h2 { color: #ccc; font-size: 22px; font-weight: normal; }
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 23px;
+      background: #d7a83e;
+      color: #080b10;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      width: fit-content;
+    }
+    section { padding: 65px 8%; }
+    section h2 { font-size: 32px; margin-bottom: 22px; }
+    section h2 span { color: #d7a83e; }
+    .about { background: #111722; }
+    .about p { max-width: 750px; color: #d0d3d8; font-size: 18px; }
+    .details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .detail, .club {
+      background: #171f2c;
+      border: 1px solid #293446;
+      border-radius: 9px;
+      padding: 20px;
+    }
+    .detail strong { display: block; color: #d7a83e; margin-bottom: 5px; }
+    .career { background: #080b10; }
+    .clubs { display: grid; gap: 13px; max-width: 750px; }
+    .club { border-left: 4px solid #d7a83e; }
+    .club strong { font-size: 19px; }
+    .club p { color: #b9c0ca; font-size: 14px; }
+    .gallery { background: #111722; }
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+    .photos img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 9px;
+      background: #202a38;
+    }
+    .contact { text-align: center; }
+    .contact p { color: #c4cbd4; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #8e98a6;
+      background: #05070a;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <p>PERFIL FUTBOLÍSTICO</p>
+    <h1>FERRAN DARIEL<br>PERALTA</h1>
+    <h2>Futbolista argentino · Extremo izquierdo / derecho</h2>
+    <a class="button" href="#trayectoria">VER MI TRAYECTORIA</a>
+  </header>
+
+  <section class="about">
+    <h2>SOBRE <span>MÍ</span></h2>
+    <p>
+      Soy Ferran Dariel Peralta, futbolista argentino. Juego al fútbol
+      desde hace casi 10 años y me desempeño como extremo por ambas
+      bandas. Actualmente formo parte de Argentino de Rosario,
+      compitiendo de manera federada en AFA. Mi objetivo es seguir
+      creciendo, aprendiendo y desarrollándome como jugador.
+    </p>
+
+    <div class="details">
+      <div class="detail">
+        <strong>POSICIÓN</strong>
+        Extremo izquierdo y derecho
+      </div>
+      <div class="detail">
+        <strong>CLUB ACTUAL</strong>
+        Argentino de Rosario
+      </div>
+      <div class="detail">
+        <strong>COMPETENCIA</strong>
+        Fútbol federado · AFA
+      </div>
+      <div class="detail">
+        <strong>EXPERIENCIA</strong>
+        Casi 10 años jugando
+      </div>
+    </div>
+  </section>
+
+  <section class="career" id="trayectoria">
+    <h2>MI <span>TRAYECTORIA</span></h2>
+    <div class="clubs">
+      <div class="club">
+        <strong>Argentino de Rosario</strong>
+        <p>Club actual · Fútbol federado en AFA</p>
+      </div>
+      <div class="club">
+        <strong>Rosario Central</strong>
+        <p>Parte de mi recorrido futbolístico</p>
+      </div>
+      <div class="club">
+        <strong>Defensores Unidos</strong>
+        <p>Experiencia y paso por el club</p>
+      </div>
+      <div class="club">
+        <strong>Amistad</strong>
+        <p>Experiencia futbolística</p>
+      </div>
+      <div class="club">
+        <strong>Unión</strong>
+        <p>Experiencia futbolística</p>
+      </div>
+      <div class="club">
+        <strong>ADIUR</strong>
+        <p>Entrenamientos</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>GALERÍA <span>DE FOTOS</span></h2>
+    <div class="photos">
+      <img src="assets/ferran-en-partido.jpg" alt="Ferran jugando un partido">
+      <img src="assets/ferran-de-espaldas.jpg" alt="Ferran en la cancha">
+      <img src="assets/ferran-retrato.jpg" alt="Foto de Ferran">
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>CONTACTO <span>DEPORTIVO</span></h2>
+    <p>Para consultas deportivas o propuestas, contactar a través de un adulto responsable.</p>
+  </section>
+
+  <footer>
+    © 2026 Ferran Dariel Peralta · Perfil futbolístico
+  </footer>
+
+</body>
+</html>
